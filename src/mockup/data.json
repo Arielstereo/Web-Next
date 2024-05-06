@@ -1,0 +1,132 @@
+{
+  "office": [
+    {
+      "id": "escritorio",
+      "image": "oficina1.jpg",
+      "title": "Escritorio moderno",
+      "description": "Escritorio de madera con acabado brillante, ideal para espacios de trabajo contemporáneos.",
+      "dimensions": "120cm x 60cm x 75cm",
+      "material": "Madera"
+    },
+    {
+      "id": "silla_oficina",
+      "image": "oficina2.jpg",
+      "title": "Silla ergonómica",
+      "description": "Silla diseñada para proporcionar comodidad y apoyo durante largas horas de trabajo.",
+      "dimensions": "55cm x 60cm x 100cm",
+      "material": "Metal y tela"
+    },
+    {
+      "id": "armario",
+      "image": "oficina3.jpg",
+      "title": "Armario archivador",
+      "description": "Armario de metal con múltiples compartimentos para organizar documentos y suministros de oficina.",
+      "dimensions": "90cm x 40cm x 180cm",
+      "material": "Metal"
+    }
+  ],
+  "living": [
+    {
+      "id": "sofa",
+      "image": "living1.jpg",
+      "title": "Sofá de cuero",
+      "description": "Sofá de cuero genuino con diseño elegante y acolchado de alta calidad.",
+      "dimensions": "220cm x 90cm x 80cm",
+      "material": "Cuero"
+    },
+    {
+      "id": "mesa_centro",
+      "image": "living2.jpg",
+      "title": "Mesa de centro moderna",
+      "description": "Mesa de centro de cristal y metal, perfecta para complementar cualquier sala de estar contemporánea.",
+      "dimensions": "120cm x 60cm x 45cm",
+      "material": "Cristal y metal"
+    },
+    {
+      "id": "estante_tv",
+      "image": "living3.jpg",
+      "title": "Estante de TV",
+      "description": "Estante de madera con espacio para televisión y almacenamiento adicional para dispositivos multimedia.",
+      "dimensions": "160cm x 40cm x 50cm",
+      "material": "Madera"
+    }
+  ],
+  "bedroom": [
+    {
+      "id": "cama_matrimonial",
+      "image": "dormitorio1.jpg",
+      "title": "Cama matrimonial",
+      "description": "Cama espaciosa con cabecero acolchado y diseño elegante.",
+      "dimensions": "160cm x 200cm",
+      "material": "Madera y tela"
+    },
+    {
+      "id": "armario_ropero",
+      "image": "dormitorio2.jpg",
+      "title": "Armario ropero",
+      "description": "Armario con amplio espacio de almacenamiento y puertas correderas.",
+      "dimensions": "200cm x 60cm x 220cm",
+      "material": "Madera"
+    },
+    {
+      "id": "mesita_noche",
+      "image": "dormitorio3.jpg",
+      "title": "Mesita de noche",
+      "description": "Mesita compacta con cajón y superficie para colocar lámparas o libros.",
+      "dimensions": "50cm x 40cm x 60cm",
+      "material": "Madera"
+    }
+  ],
+  "bathroom": [
+    {
+      "id": "vanitory",
+      "image": "baño1.jpg",
+      "title": "Mueble de baño con espejo",
+      "description": "Mueble de baño compacto con espejo incorporado, ideal para espacios reducidos.",
+      "dimensions": "60cm x 40cm x 180cm",
+      "material": "Madera"
+    },
+    {
+      "id": "lavabo",
+      "image": "baño3.jpg",
+      "title": "Lavabo de diseño",
+      "description": "Lavabo de porcelana con grifo cromado, agregará un toque de elegancia a cualquier baño.",
+      "dimensions": "80cm x 50cm x 15cm",
+      "material": "Porcelana"
+    },
+    {
+      "id": "hidromasaje",
+      "image": "baño2.jpg",
+      "title": "Ducha de hidromasaje",
+      "description": "Cabina de ducha con chorros de hidromasaje y sistema de iluminación LED para una experiencia de baño relajante.",
+      "dimensions": "120cm x 90cm x 220cm",
+      "material": "Vidrio y metal"
+    }
+  ],
+  "kitchen": [
+    {
+      "id": "isla",
+      "image": "cocina1.jpg",
+      "title": "Isla de cocina multifuncional",
+      "description": "Isla de cocina con espacio de almacenamiento adicional y encimera de granito resistente.",
+      "dimensions": "120cm x 80cm x 90cm",
+      "material": "Madera y granito"
+    },
+    {
+      "id": "electro",
+      "image": "cocina2.jpg",
+      "title": "Conjunto de electrodomésticos",
+      "description": "Incluye nevera, horno, lavaplatos y microondas, todo en acero inoxidable de alta calidad.",
+      "dimensions": "Varía según el electrodoméstico",
+      "material": "Acero inoxidable"
+    },
+    {
+      "id": "campana",
+      "image": "cocina3.jpg",
+      "title": "Campana extractora moderna",
+      "description": "Campana extractora de acero inoxidable con luces LED y múltiples velocidades de ventilación.",
+      "dimensions": "90cm x 50cm x 60cm",
+      "material": "Acero inoxidable"
+    }
+  ]
+}

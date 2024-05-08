@@ -18,22 +18,22 @@ export default function Home() {
           Tu lugar en el mundo!
         </h2>
       </div>
-      <div className="mt-24 md:mt-32 flex flex-col md:flex-row gap-16 md:gap-32 mx-8 items-start md:items-center justify-center">
-        <div className="flex flex-col gap-4 justify-center w-full md:w-64 h-32 border-b md:border-b-0 pb-8 md:border-r border-slate-600">
+      <div className="mt-24 md:mt-32 flex flex-col lg:flex-row gap-16 lg:gap-32 mx-8 items-start md:items-center justify-center">
+        <div className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 border-b lg:border-b-0 pb-8 lg:border-r border-slate-600">
           <h2 className="text-xl font-bold">Paga en cuotas</h2>
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <br /> Cupiditate nobis inventore alias.
           </p>
         </div>
-        <div className="flex flex-col gap-4 justify-center w-full md:w-64 h-32 border-b md:border-b-0 pb-8 md:border-r border-slate-600">
+        <div className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 border-b lg:border-b-0 pb-8 lg:border-r border-slate-600">
           <h2 className="text-xl font-bold">Entrega inmediata</h2>
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <br /> Cupiditate nobis inventore alias.
           </p>
         </div>
-        <div className="flex flex-col gap-4 justify-center w-full md:w-64 h-32 pb-8 border-b md:border-b-0 md:border-r border-slate-600">
+        <div className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 pb-8 border-b lg:border-b-0 lg:border-r border-slate-600">
           <h2 className="text-xl font-bold">Envio gratis</h2>
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -41,7 +41,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="py-32 px-16 md:px-96">
+      <div className="py-32 px-16 lg:px-96">
         <h2 className="text-center text-xl font-semibold pb-16">
           Medios de pago
         </h2>
@@ -74,10 +74,10 @@ export default function Home() {
           title={"BAÑO"}
         />
       </div>
-      <div className="flex flex-col-reverse md:flex-row gap-16 md:gap-32 justify-center mt-32 p-12 bg-slate-100 border-t border-slate-400">
+      <div className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-32 justify-center mt-32 p-12 bg-slate-100 border-t border-slate-400">
         <GoogleMap />
         <GoogleMapMobile />
-        <div className="flex flex-col gap-12 md:gap-32">
+        <div className="flex flex-col gap-12 lg:gap-32">
           <h3 className="text-slate-800 text-xl font-semibold">
             Showroom - Av. Rivadavia 11200, CABA.
           </h3>

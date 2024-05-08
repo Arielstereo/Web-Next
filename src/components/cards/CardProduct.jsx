@@ -8,7 +8,7 @@ const CardProduct = ({ id, url, description }) => {
       className="shadow-xl shadow-black p-4 my-12 w-[400px]"
     >
       <Image
-        className="object-cover hover:opacity-90 h-[300px] w-fit"
+        className="object-cover hover:opacity-90 h-[300px] w-full"
         src={url}
         alt="product"
         width={400}

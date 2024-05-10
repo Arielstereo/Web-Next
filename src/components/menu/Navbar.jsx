@@ -50,7 +50,7 @@ const Navbar = () => {
             <ul className="lg:flex items-center justify-between text-base text-white pt-4 md:pt-0">
               <li>
                 <Link
-                  className="inline-block no-underline hover:text-black py-2 px-4"
+                  className="inline-block no-underline hover:text-yellow-100 py-2 px-4"
                   href="/office"
                 >
                   Oficina
@@ -58,7 +58,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="inline-block no-underline hover:text-black py-2 px-4"
+                  className="inline-block no-underline hover:text-yellow-100 py-2 px-4"
                   href="/bedroom"
                 >
                   Dormitorio
@@ -66,7 +66,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="inline-block no-underline hover:text-black py-2 px-4"
+                  className="inline-block no-underline hover:text-yellow-100 py-2 px-4"
                   href="/living "
                 >
                   Living
@@ -74,7 +74,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="inline-block no-underline hover:text-black py-2 px-4"
+                  className="inline-block no-underline hover:text-yellow-100 py-2 px-4"
                   href="/kitchen "
                 >
                   Cocina
@@ -82,7 +82,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="inline-block no-underline hover:text-black py-2 px-4"
+                  className="inline-block no-underline hover:text-yellow-100 py-2 px-4"
                   href="/bathroom "
                 >
                   Baño

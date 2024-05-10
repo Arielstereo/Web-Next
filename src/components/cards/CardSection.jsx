@@ -1,9 +1,22 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 
-const CardSection = ({ url, linkTo, title }) => {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
+const CardSection = ({ url, linkTo, title, animation }) => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, []);
+
   return (
-    <div className="relative">
+    <div data-aos={animation} className="relative">
       <Image
         src={url}
         alt="card"

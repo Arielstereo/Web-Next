@@ -1,9 +1,22 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const CardProduct = ({ id, url, description }) => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, []);
+
   return (
     <Link
+      data-aos="flip-right"
       href={id}
       className="shadow-xl shadow-black p-4 my-12 w-[400px]"
     >

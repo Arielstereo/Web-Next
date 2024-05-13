@@ -20,8 +20,8 @@ const CardSection = ({ url, linkTo, title, animation }) => {
       <Image
         src={url}
         alt="card"
-        width={400}
-        height={400}
+        width={360}
+        height={360}
         className="object-cover h-full"
       />
       <div className="absolute inset-0 flex flex-col gap-12 justify-center items-center">

@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className="mt-24 md:mt-32 flex flex-col lg:flex-row gap-16 lg:gap-32 mx-8 items-start md:items-center justify-center">
         <div
-          data-aos="fade-right"
+          data-aos="fade-down"
           className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 border-b lg:border-b-0 pb-8 lg:border-r border-slate-600"
         >
           <h2 className="text-xl font-bold">Paga en cuotas</h2>
@@ -30,7 +30,7 @@ export default function Home() {
           </p>
         </div>
         <div
-          data-aos="flip-down"
+          data-aos="flip-up"
           className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 border-b lg:border-b-0 pb-8 lg:border-r border-slate-600"
         >
           <h2 className="text-xl font-bold">Entrega inmediata</h2>
@@ -40,7 +40,7 @@ export default function Home() {
           </p>
         </div>
         <div
-          data-aos="fade-down"
+          data-aos="fade-up"
           className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 pb-8 border-b lg:border-b-0 lg:border-r border-slate-600"
         >
           <h2 className="text-xl font-bold">Envio gratis</h2>
@@ -50,7 +50,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="py-32 px-16 lg:px-96">
+      <div className="py-32 px-8 lg:px-96">
         <h2 className="text-center text-xl font-semibold pb-16">
           Medios de pago
         </h2>
@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <div className="mx-2 flex gap-8 flex-wrap justify-center">
         <CardSection
-          animation={"fade-up"}
+          animation={"zoom-in-down"}
           url={"/images/office.jpg"}
           linkTo={"/office"}
           title={"OFICINA"}
@@ -82,7 +82,7 @@ export default function Home() {
           title={"DORMITORIO"}
         />
         <CardSection
-          animation={"zoom-in-down"}
+          animation={"flip-down"}
           url={"/images/bathroom.jpg"}
           linkTo={"/bathroom"}
           title={"BAÑO"}

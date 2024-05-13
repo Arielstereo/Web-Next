@@ -3,7 +3,7 @@ const WspButton = () => {
     <a
       href="https://api.whatsapp.com/send?phone=1122334455&text=Hola%20quisiera%20hacer%20una%20consulta:"
       target="_blank"
-      className="z-50 fixed right-8 md:right-8 bottom-8 md:bottom-16 cursor-pointer animate-pulse w-12 h-12 md:w-14 md:h-14"
+      className="z-50 fixed right-8 bottom-16 cursor-pointer animate-pulse w-12 h-12 md:w-14 md:h-14"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

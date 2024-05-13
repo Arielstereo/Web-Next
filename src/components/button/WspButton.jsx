@@ -3,7 +3,7 @@ const WspButton = () => {
     <a
       href="https://api.whatsapp.com/send?phone=1122334455&text=Hola%20quisiera%20hacer%20una%20consulta:"
       target="_blank"
-      class="z-50 absolute md:fixed right-8 bottom-8 md:bottom-16 cursor-pointer animate-pulse w-12 h-12 md:w-14 md:h-14"
+      className="z-50 absolute md:fixed right-8 bottom-8 md:bottom-16 cursor-pointer animate-pulse w-12 h-12 md:w-14 md:h-14"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -17,8 +17,8 @@ const WspButton = () => {
             y1="100%"
             y2="0%"
           >
-            <stop offset="0%" stop-color="#1FAF38" />
-            <stop offset="100%" stop-color="#60D669" />
+            <stop offset="0%" stopColor="#1FAF38" />
+            <stop offset="100%" stopColor="#60D669" />
           </linearGradient>
           <linearGradient
             id="IconifyId18e7110a4c588ce4c1"
@@ -27,8 +27,8 @@ const WspButton = () => {
             y1="100%"
             y2="0%"
           >
-            <stop offset="0%" stop-color="#F9F9F9" />
-            <stop offset="100%" stop-color="#FFF" />
+            <stop offset="0%" stopColor="#F9F9F9" />
+            <stop offset="100%" stopColor="#FFF" />
           </linearGradient>
         </defs>
         <path

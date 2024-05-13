@@ -40,7 +40,7 @@ export default function Home() {
           </p>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-down"
           className="flex flex-col gap-4 justify-center w-full lg:w-64 h-32 pb-8 border-b lg:border-b-0 lg:border-r border-slate-600"
         >
           <h2 className="text-xl font-bold">Envio gratis</h2>
@@ -58,19 +58,19 @@ export default function Home() {
       </div>
       <div className="mx-2 flex gap-8 flex-wrap justify-center">
         <CardSection
-          animation={"fade-right"}
+          animation={"fade-up"}
           url={"/images/office.jpg"}
           linkTo={"/office"}
           title={"OFICINA"}
         />
         <CardSection
-          animation={"flip-up"}
+          animation={"zoom-in"}
           url={"/images/kitchen.jpg"}
           linkTo={"/kitchen"}
           title={"COCINA"}
         />
         <CardSection
-          animation={"fade-left"}
+          animation={"zoom-out-up"}
           url={"/images/living.jpg"}
           linkTo={"/living"}
           title={"LIVING"}
@@ -95,7 +95,7 @@ export default function Home() {
           <h3 className="text-slate-800 text-xl font-semibold">
             Showroom - Av. Rivadavia 11200, CABA.
           </h3>
-          <div class="flex flex-col gap-8">
+          <div className="flex flex-col gap-8">
             <div className="flex gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

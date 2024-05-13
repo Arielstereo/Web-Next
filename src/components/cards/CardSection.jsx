@@ -11,7 +11,7 @@ const CardSection = ({ url, linkTo, title, animation }) => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 3000
     });
   }, []);
 

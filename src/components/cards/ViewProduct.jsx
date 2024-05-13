@@ -9,7 +9,7 @@ const ViewProduct = ({ url, title, description, dimensions, material }) => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 3000
     });
   }, []);
 

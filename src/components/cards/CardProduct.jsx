@@ -10,13 +10,13 @@ const CardProduct = ({ id, url, description }) => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 3000
     });
   }, []);
 
   return (
     <Link
-      data-aos="flip-right"
+      data-aos="zoom-out"
       href={id}
       className="shadow-xl shadow-black p-4 my-12 w-[400px]"
     >

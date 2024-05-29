@@ -88,6 +88,14 @@ const Navbar = () => {
                   Baño
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="inline-block no-underline hover:text-yellow-100 py-2 px-4"
+                  href="/contact "
+                >
+                  Contacto
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

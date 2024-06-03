@@ -25,8 +25,8 @@ export default function Home() {
         >
           <h2 className="text-xl font-bold">Paga en cuotas</h2>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Cupiditate nobis inventore alias.
+            3 cuotas sin interés con todas las tarjetas de crédito.
+            <br /> Consultar por otros medios de pago y formas de financiamiento.
           </p>
         </div>
         <div
@@ -35,8 +35,8 @@ export default function Home() {
         >
           <h2 className="text-xl font-bold">Entrega inmediata</h2>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Cupiditate nobis inventore alias.
+            Trabajamos con un gran stock en nuestra sucursal.
+            <br /> Los tiempos de entregan cambian en trabajos a pedido.
           </p>
         </div>
         <div
@@ -45,8 +45,8 @@ export default function Home() {
         >
           <h2 className="text-xl font-bold">Envio gratis</h2>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Cupiditate nobis inventore alias.
+             Envio gratis a CABA y GBA a partir de $100.000.
+            <br /> Consulta por envios al interior del pais.
           </p>
         </div>
       </div>

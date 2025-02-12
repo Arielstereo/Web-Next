@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -11,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-slate-900 py-2 shadow-lg shadow-black">
+    <nav className="w-full bg-slate-900 py-2 shadow shadow-black" id="hero">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 md:px-32 py-3">
         <button onClick={toggleMenu} className="lg:hidden block">
           {!isMenuOpen ? (
@@ -104,20 +105,7 @@ const Navbar = () => {
             className="flex gap-4 items-center font-bold text-slate-100 text-xl"
             href="/"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="#ffffff"
-                d="M5 20v-9.15L2.2 13L1 11.4L12 3l4 3.05V4h3v4.35l4 3.05l-1.2 1.6l-2.8-2.15V20h-5v-6h-4v6zm5-9.975h4q0-.8-.6-1.313T12 8.2q-.8 0-1.4.513t-.6 1.312"
-              />
-            </svg>
-            <h3 className="uppercase">
-              Interior Design
-            </h3>
+            <Image src= "/images/logo-png.png" alt="logo" width={200} height={300} className="w-5/6 md:w-full" />
           </Link>
         </div>
       </div>

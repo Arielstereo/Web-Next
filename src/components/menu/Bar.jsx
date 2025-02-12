@@ -1,10 +1,11 @@
-
 const Bar = () => {
   return (
-    <div className="bg-slate-100 text-slate-900 font-medium flex flex-col md:flex-row text-center md:gap-16 justify-center py-2">
-      <span>ayuda@gmail.com</span><span>+54 11 2233-4455</span><span>Showroom: Av Rivadavia 11200, CABA</span>
+    <div className="bg-yellow-400 px-4 py-3 text-black flex gap-4 justify-center">
+      <p className="text-center text-sm font-medium animate-pulse">
+        Nuevo catálogo 2025 | Planes 3, 6 y 12 cuotas
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Bar
+export default Bar;

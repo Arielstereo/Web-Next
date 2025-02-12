@@ -8,7 +8,7 @@ export default function BedroomPage() {
 
   return (
     <div>
-      <Hero url={"/images/bedroom.jpg"} title= "dormitorio" />
+      <Hero url={"/images/bedroom.jpg"} title= "dormitorio" subtitle= "Tu refugio personal, diseñado para el descanso" />
       <h2 className="text-slate-100 font-black text-3xl text-center bg-red-500 p-4">Muebles de Dormitorio</h2>
       <div className="flex gap-8 flex-wrap justify-center m-4 md:mx-20">
 

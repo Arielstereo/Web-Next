@@ -7,7 +7,7 @@ export default function OfficePage() {
 
   return (
     <div>
-      <Hero url={"/images/office.jpg"} title= "oficina" />
+      <Hero url={"/images/office.jpg"} title= "oficina" subtitle="Espacios de trabajo inspiradores y funcionales" />
       <h2 className="text-slate-100 font-black text-3xl text-center bg-red-500 p-4">
         Muebles de Escritorio
       </h2>

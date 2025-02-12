@@ -9,7 +9,7 @@ import SliderPay from "@/components/slider/SliderPay";
 export default function Home() {
   return (
     <header className="relative">
-      <Hero url={"/images/hero.jpg"} title= "hogar" subtitle= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas maiores nesciunt tenetur." />
+      <Hero url={"/images/hero.jpg"} title= "hogar" subtitle= "Transforma tu hogar con estilo y funcionalidad" />
       <div className="mt-24 md:mt-32 flex flex-col lg:flex-row gap-16 lg:gap-32 mx-8 items-start md:items-center justify-center">
         <div
           data-aos="fade-down"

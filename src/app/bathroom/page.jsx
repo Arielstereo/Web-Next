@@ -8,7 +8,7 @@ export default function BathroomPage() {
 
   return (
     <div>
-      <Hero url={"/images/bathroom.jpg"} title= "baño" />
+      <Hero url={"/images/bathroom.jpg"} title= "baño" subtitle= "Bienestar y diseño en cada detalle" />
       <h2 className="text-slate-100 font-black text-3xl text-center bg-red-500 p-4">Muebles de Baño</h2>
       <div className="flex gap-8 flex-wrap justify-center m-4 md:mx-20">
 
